@@ -1,18 +1,21 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <Chart />
+  <StudioProgressChart />
+  <UserProgressChart />
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Chart from './components/Chart.vue'
+import StudioProgressChart from './components/StudioProgressChart.vue'
+import UserProgressChart from './components/UserProgressChart.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Chart
+    StudioProgressChart,
+    UserProgressChart
   }
 }
 </script>
